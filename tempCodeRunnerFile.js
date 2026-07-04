@@ -1,0 +1,1 @@
+console.log(myObj.name +","+ myObj.age);
