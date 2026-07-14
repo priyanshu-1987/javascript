@@ -11,13 +11,13 @@ console.log(3%2)
 let str1="hello"
 let str2="priyanshu"
 let str3=str1+" "+str2;
-console.log(str3)
-console.log("1"+2);
-console.log(1+"2")
-console.log("1"+"2")
-console.log("1"+2+2)
-console.log(1+2+"2")
-console.log(1+"2"+3)
+console.log(str3)//hello priyanshu
+console.log("1"+2);//12
+console.log(1+"2")//12
+console.log("1"+"2")//12
+console.log("1"+2+2)//122
+console.log(1+2+"2")//32
+console.log(1+"2"+3)//123
 //if first is number then they treate like number and if first is charector then they treate like charector
 console.log(true);//true
 console.log(+true);//1
