@@ -5,6 +5,8 @@ console.log(myDate.toDateString())//Wed Jul 15 2026
 console.log(myDate.toLocaleString())//15/7/2026, 2:45:45 am
 console.log(myDate.toLocaleDateString())//15/7/2026
 console.log(myDate.toLocaleTimeString())// 2:45:45 am 
+
+
 /*getTimezoneOffset() is a Date object method in JavaScript. It returns the difference, in minutes,
   between UTC (Coordinated Universal Time) and your local system time.*/
 console.log(myDate.getTimezoneOffset())//-330
