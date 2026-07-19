@@ -74,3 +74,21 @@ const MonthName=(month)=>{
     }
 }
 MonthName(12)
+
+
+//Nullish coalescing operator (??):null undefine
+let val1=5??10
+console.log(val1);//5
+let val3=null??10
+console.log(val3);//10
+let val4=null??10??15
+console.log(val4);//10
+let val5=null??"*"
+console.log(val5);//*
+
+
+//Terniary Operator
+//Syntex --> (condition?true:false)
+const myage=17;
+(myage>=18)?console.log("eligible for voting"):console.log("not eligible for voting");
+
